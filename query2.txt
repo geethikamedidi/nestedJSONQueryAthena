@@ -1,0 +1,1 @@
+SELECT firstName,lastName,gender,address,phonenumber FROM (nestedJsondb.user_table CROSS JOIN UNNEST(phoneNumbers) t(phonenumber));

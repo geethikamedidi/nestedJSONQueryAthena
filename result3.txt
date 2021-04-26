@@ -1,0 +1,3 @@
+"firstName","lastName","gender","city","state","type","number"
+"Joe","Jackson","male","San Diego","CA","home","7349282382"
+"Joe","Jackson","male","San Diego","CA","office","1234567890"
