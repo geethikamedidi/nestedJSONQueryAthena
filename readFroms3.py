@@ -1,12 +1,11 @@
 import boto3
-import pandas as pd
 import json
 from recursive_diff import recursive_diff
 s3 = boto3.resource(
     service_name='s3',
     region_name='ap-south-1',
-    aws_access_key_id='AKIA6PMFHVUZ2LB2Q3KH',
-    aws_secret_access_key='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'
+    aws_access_key_id='',
+    aws_secret_access_key=''
 )
 
 obj = s3.Bucket('readfroms3').Object('test1.json').get()['Body'].read().decode('utf-8')
